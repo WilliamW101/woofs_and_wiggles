@@ -1,2 +1,10 @@
 @import 'materialize';
 @import url('https://fonts.googleapis.com/css?family=Droid+Serif|Frank+Ruhl+Libre|Merriweather|Ubuntu');
+// font-family: 'Merriweather', serif;
+// font-family: 'Droid Serif', serif;
+// font-family: 'Ubuntu', sans-serif;
+// font-family: 'Frank Ruhl Libre', sans-serif;
+
+.nav-fixed {
+  position: fixed;
+}
