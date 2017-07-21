@@ -17,15 +17,27 @@ class NavBar extends React.Component {
           <a href="#" data-activates="mobile-demo" className="button-collapse"><i className="material-icons">menu</i></a>
 
           <ul id="nav-mobile" className="right hide-on-med-and-down">
-            <li><a href="">Sass</a></li>
-            <li><a href="">Components</a></li>
-            <li><a href="">JavaScript</a></li>
+            <li><a href="">Home</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Rates</a></li>
+            <li><a href="">Hours</a></li>
+            <li><a href="">Location</a></li>
+            <li><a href="">Policies</a></li>
+            <li><a href="">Facility</a></li>
+            <li><a href="">Clients</a></li>
           </ul>
 
           <ul className="side-nav" id="mobile-demo">
-            <li><a href="">Sass</a></li>
-            <li><a href="">Components</a></li>
-            <li><a href="">JavaScript</a></li>
+            <li><a href="">Home</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Rates</a></li>
+            <li><a href="">Hours</a></li>
+            <li><a href="">Location</a></li>
+            <li><a href="">Policies</a></li>
+            <li><a href="">Facility</a></li>
+            <li><a href="">Clients</a></li>
           </ul>
         </div>
       </nav>

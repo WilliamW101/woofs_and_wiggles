@@ -1,10 +1,9 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router';
-import Hearder from '../components/Head';
-import NavBar from '../components/NavBar';
+import { browserHistory } from 'react-router';
 
-class App extends React.Component {
+class Head extends React.Component {
   constructor(props) {
     super(props);
 
@@ -13,10 +12,10 @@ class App extends React.Component {
   render() {
     return(
       <div>
-        <NavBar />
+        <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">add</i></a>
       </div>
     )
   }
 }
 
-export default App;
+export default Head;
