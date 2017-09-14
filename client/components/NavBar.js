@@ -13,7 +13,6 @@ class NavBar extends React.Component {
     return(
       <nav className="nav-extended nav-fixed">
         <div className="nav-wrapper">
-          <a href="#" className="brand-logo">Logo</a>
           <a href="#" data-activates="mobile-demo" className="button-collapse"><i className="material-icons">menu</i></a>
 
           <ul id="nav-mobile" className="right hide-on-med-and-down">

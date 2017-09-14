@@ -13,7 +13,6 @@ import Locate from './components/Locate'
 import NavBar from './components/NavBar';
 import Policie from './components/Policie';
 import Rate from './components/Rate';
-import Rate from './components/Rate';
 import Service from './components/Service';
 
 export default (
@@ -23,15 +22,13 @@ export default (
       <Route path='about' component={About} />
       <Route path="client" component={Client} />
       <Route path="facility" component={Facility} />
-      <Route path='userEvents' component={UserEvents} />
-      <Route path='userEventCard' component={UserEventCard} />
-      <Route path='addEvent' component={AddEvent} />
-      <Route path='profile' component={Profile} />
-      <Route path='settings' component={Settings} />
-      <Route component={AdminRoutes}>
-        <Route path="/admin" component={Admin} />
-        {/* PROTECTED BY ADMIN ACCESS */}
-      </Route>
+      <Route path='head' component={Head} />
+      <Route path='hour' component={Hour} />
+      <Route path='locate' component={Locate} />
+      <Route path='navBar' component={NavBar} />
+      <Route path='policie' component={Policie} />
+      <Route path='rate' component={Rate} />
+      <Route path='service' component={Service} />
       <Route path="*" status={404} component={NoMatch}/>
     </Route>
   </Route>
